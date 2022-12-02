@@ -101,7 +101,7 @@ WantedBy=multi-user.target
 Update systemd and enable the service file.
 ```sh
 sudo systemctl daemon-reload
-sudo systemctl enable canined.service
+sudo systemctl enable jackal.service
 ```
 
 ## Building from Source
